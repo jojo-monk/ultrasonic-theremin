@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # encoding: UTF-8
-
+"version à 2 capteurs, 1 pour la fréquence, et l'autre pour l'amplitude"
 from gpiozero import DistanceSensor
 from pyo import *
 pyoserver = Server(sr=48000, nchnls=2, duplex=0, audio="jack", jackname="pyo")
