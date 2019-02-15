@@ -1,2 +1,2 @@
 # ultrasonic-theremin
-theremin à ultrason avec raspberry pi
+theremin à ultrason avec un raspberry pi
