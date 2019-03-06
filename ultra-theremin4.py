@@ -36,7 +36,7 @@ def CapteurA():
     print("amp: ", env)
     if sensor2.distance > 1:
         amp.value = 0.0
-    amp.value = env
+    amp.value = floatmap(env, 0, 1, 3)
     
 pat1 = Pattern(CapteurA, 0.05).play()
 pat2 = Pattern(CapteurF, 0.05).play()
